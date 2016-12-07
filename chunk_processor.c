@@ -58,7 +58,6 @@ void IDAT_processor(unsigned char*buffer){
 
 	// 1, uncompress with zlib from source
 	// 2, unfilter from uncompress data
-	// 3, display or ...
 }
 void tRNS_processor(unsigned char*buffer){
 	// no pics with tRNS set found, this implementation is not tested
