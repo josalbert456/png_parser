@@ -1,0 +1,17 @@
+void IHDR_processor(unsigned char*buffer);
+void IDAT_processor(unsigned char*buffer);
+void tRNS_processor(unsigned char*buffer);		
+void tIME_processor(unsigned char*buffer);		
+void gAMA_processor(unsigned char*buffer);		
+void cHRM_processor(unsigned char*buffer);		
+void sBIT_processor(unsigned char*buffer);		
+void sPLT_processor(unsigned char*buffer);		
+void sRGB_processor(unsigned char*buffer);		
+void iCCP_processor(unsigned char*buffer);		
+void iTXt_processor(unsigned char*buffer);		
+void tEXt_processor(unsigned char*buffer);		
+void zEXt_processor(unsigned char*buffer);		
+void bKGD_processor(unsigned char*buffer);		
+void pHYs_processor(unsigned char*buffer);		
+void hIST_processor(unsigned char*buffer);		
+void UNKNOWN_processor(unsigned char*buffer);		
